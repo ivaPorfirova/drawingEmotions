@@ -1,0 +1,42 @@
+#container {
+  position: fixed;
+  left: 33%;
+  top: 33%;
+  height: 120%;
+  width: auto;
+  z-index: 10;
+}
+
+#container1 {
+  background-image: url("https://s3.amazonaws.com/drawing.on.web/media/idea.gif");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+}
+
+#container2 {
+  background-image: url("https://s3.amazonaws.com/drawing.on.web/media/trippy.gif");
+  background-size: cover;
+  position: fixed;
+  top: -36%;
+  left: -10%;
+  min-height: 110%;
+  min-width: 110%;
+  width: 1280px;
+  height: 1120px;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+audio {
+  position: fixed;
+  top: 10px;
+  opacity: 0.4;
+  z-index: 1000;
+}

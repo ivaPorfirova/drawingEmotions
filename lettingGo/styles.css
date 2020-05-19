@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+audio {
+  position: relative;
+  top: 0;
+  align-self: center;
+  opacity: 0.2;
+}
+
+#video-player {
+  position: fixed;
+  background-size: cover;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  mix-blend-mode: multiply;
+  z-index: -1;
+}

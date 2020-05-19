@@ -1,0 +1,43 @@
+#container1 {
+  background-image: url("https://s3.amazonaws.com/drawing.on.web/media/naturePink.gif");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+#container2 {
+  position: fixed;
+  background-image: url("https://s3.amazonaws.com/drawing.on.web/media/humanMind.gif");
+  background-size: cover;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  mix-blend-mode: lighten;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  min-height: 100%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+audio {
+  position: relative;
+  top: 0;
+  align-self: center;
+  opacity: 0.4;
+}
